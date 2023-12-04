@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Flavors&family=Koulen&family=Pixelify+Sans:wght@400;500&family=Press+Start+2P&family=Rubik+Mono+One&display=swap');
+
+
+body{
+    background-color: black;
+}
+#canvas1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    width: 600px;
+    height: 400px;
+    border: 2px solid black;
+    border: 2px solid #ffffff;
+}
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    color: azure;
+    text-shadow: 0 0 10px rgba(173, 216, 230, 1), 0 0 20px rgba(173, 216, 230, 1), 0 0 30px rgba(173, 216, 230, 1);
+    font-size: 60px;
+    text-align: center;
+    line-height: 1.5; 
+    height: 15vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
